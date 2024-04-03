@@ -6,7 +6,7 @@
     "wedding": {
       "projectType": "application",
       "schematics": {},
-      "root": "src/app/",
+      "root": "src/app",
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
