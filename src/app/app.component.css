@@ -2328,6 +2328,15 @@ section.two .container {
 	height: 100%;
 }
 
+section.three .link {
+	display: flex;
+	justify-content: center;
+}
+
+.link a {
+	margin: 20px;
+}
+
 /* Carousel */
 @mixin aspect-ratio($width, $height) {
     position: relative;
