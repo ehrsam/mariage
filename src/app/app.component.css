@@ -2337,6 +2337,24 @@ section.three .link {
 	margin: 20px;
 }
 
+.containerForm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.toolbar {
+    justify-content: space-between;
+}
+.bill-manager-table {
+    width: 100%;
+}
+.bill-manager-table th {
+    font-size: 16px;
+}
+
 /* Carousel */
 @mixin aspect-ratio($width, $height) {
     position: relative;

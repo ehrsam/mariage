@@ -1,0 +1,47 @@
+.container {
+    border: 9px solid #BD945A; 
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.container, .login-form, .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.radioGroup {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.mat-mdc-radio-button ~ .mat-mdc-radio-button {
+    margin-left: 16px;
+  }
+
+.radio1 {
+    margin-right: 50px;
+}
+
+.Nom {
+    margin-right: 50px;
+}
+
+button.answer {
+    width: 100%;
+    border-radius: 18px;
+}
+.header {
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+.login-form {
+    border: 1px solid;
+    padding: 6vh;
+    border-radius: 8px;
+}
+mat-form-field, .login-form {
+    width: 45vw; 
+}
